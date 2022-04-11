@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400;600;700&family=Space+Mono&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: #252332;
+}
+
+.App {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 90%;
+  max-width: 36.28125rem;
+}
+
+.header__logo {
+  font-family: "Space Mono", monospace;
+  padding: 1.5625rem 0 0 1.25rem;
+  color: white;
+  font-size: 1.875rem;
+}
+
+.searchBar {
+  margin-top: 1.5625rem;
+  padding: 0 1.5625rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 90%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  max-width: 36.28125rem;
+}
+
+.searchBar__input {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  border: none;
+  width: 100%;
+  height: 3.4375rem;
+  border-radius: 0.625rem;
+  background-color: #2b2645;
+  padding-left: 1.25rem;
+  color: white;
+}
+
+.searchBar__submit {
+  background-color: #4b4bff;
+  color: white;
+  font-family: "Roboto Mono", monospace;
+  font-weight: 600;
+  padding: 0.625rem 0.9375rem;
+  border: none;
+  border-radius: 0.625rem;
+  height: 2.5rem;
+  margin-left: -5.3125rem;
+  -webkit-transition: ease-in-out 0.3s;
+  transition: ease-in-out 0.3s;
+}
+
+.searchBar__submit:hover {
+  -webkit-transform: scale(1.06);
+          transform: scale(1.06);
+  cursor: pointer;
+}
+
+::-webkit-input-placeholder {
+  color: #d9d9d9;
+  font-family: "Roboto Mono", monospace;
+}
+
+:-ms-input-placeholder {
+  color: #d9d9d9;
+  font-family: "Roboto Mono", monospace;
+}
+
+::-ms-input-placeholder {
+  color: #d9d9d9;
+  font-family: "Roboto Mono", monospace;
+}
+
+::placeholder {
+  color: #d9d9d9;
+  font-family: "Roboto Mono", monospace;
+}
+/*# sourceMappingURL=main.css.map */
