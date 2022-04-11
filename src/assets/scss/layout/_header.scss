@@ -1,0 +1,12 @@
+.header {
+    display: flex;
+    width: 90%;
+    max-width: toRem(580.5);
+
+    &__logo {
+        font-family: $headerFont;
+        padding: toRem(25) 0 0 toRem(20);
+        color: $textMainColor;
+        font-size: toRem(30);
+    }
+}

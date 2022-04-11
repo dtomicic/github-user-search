@@ -1,0 +1,42 @@
+.searchBar {
+    margin-top: toRem(25);
+    padding: 0 toRem(25);
+    display: flex;
+    width: 90%;
+    align-items: center;
+    max-width: toRem(580.5);
+    
+    &__input {
+        flex: 1;
+        border: none;
+        width: 100%;
+        height: toRem(55);
+        border-radius: toRem(10);
+        background-color: $boxColor;
+        padding-left: toRem(20);
+        color: $textMainColor;
+    }
+
+    &__submit {
+        background-color: rgb(75, 75, 255);
+        color: white;
+        font-family: $textFont;
+        font-weight: 600;
+        padding: toRem(10) toRem(15);
+        border: none;
+        border-radius: toRem(10);
+        height: toRem(40);
+        margin-left: toRem(-85);
+        transition: ease-in-out 0.3s;
+
+        &:hover {
+            transform: scale(1.06);
+            cursor: pointer;
+        }
+    }
+}
+
+::placeholder {
+    color: rgb(217, 217, 217);
+    font-family: $textFont;
+}
