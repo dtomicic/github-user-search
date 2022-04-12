@@ -1,10 +1,10 @@
 .searchBar {
     margin-top: toRem(25);
-    padding: 0 toRem(25);
     display: flex;
     width: 90%;
     align-items: center;
     max-width: toRem(580.5);
+    gap: toRem(20);
     
     &__input {
         flex: 1;
@@ -15,6 +15,11 @@
         background-color: $boxColor;
         padding-left: toRem(20);
         color: $textMainColor;
+        font-family: $textFont;
+
+        &:focus {
+           outline: none; 
+        }
     }
 
     &__submit {
@@ -25,8 +30,7 @@
         padding: toRem(10) toRem(15);
         border: none;
         border-radius: toRem(10);
-        height: toRem(40);
-        margin-left: toRem(-85);
+        height: toRem(55);
         transition: ease-in-out 0.3s;
 
         &:hover {
