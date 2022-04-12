@@ -27,7 +27,7 @@ const Box = ({user, hidden, setHidden}) => {
 
                 <div className="box__headerText">
                     <div className="box__headerName">
-                        <h3 className="box__headerNameMain">{user.name}</h3>
+                        <h3 className="box__headerNameMain">{user.name === null ? "Anonymous" : user.name}</h3>
                         <h3 className="box__headerNameSecondary">@{user.login}</h3>
                     </div>
                 </div>

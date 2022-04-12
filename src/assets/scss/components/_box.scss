@@ -157,3 +157,48 @@
 .hidden {
     display: none;
 }
+
+
+@media (min-width: $breakDesktop) {
+    .box__header {
+        align-items: center;
+        justify-content: center;
+
+        &NameMain {
+            font-size: toRem(30);
+        }
+
+        &NameSecondary {
+            font-size: toRem(20);
+        }
+    }
+
+    .box__bio {
+        margin-top: toRem(50);
+        font-size: toRem(20);
+    }
+
+    .box__info {
+        gap: toRem(50);
+    }
+
+    .box__infoItemHeader {
+        font-size: toRem(20);
+    }
+
+    .box__infoItemSubHeader {
+        font-size: toRem(25);
+    }
+
+    .box__details {
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 toRem(15) 0 toRem(15);
+        margin-bottom: toRem(15);
+
+        &FirstText {
+            font-size: toRem(16);
+        }
+    }
+}

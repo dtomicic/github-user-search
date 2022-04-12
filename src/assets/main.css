@@ -324,4 +324,51 @@ body {
 .hidden {
   display: none;
 }
+
+@media (min-width: 900px) {
+  .box__header {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .box__headerNameMain {
+    font-size: 1.875rem;
+  }
+  .box__headerNameSecondary {
+    font-size: 1.25rem;
+  }
+  .box__bio {
+    margin-top: 3.125rem;
+    font-size: 1.25rem;
+  }
+  .box__info {
+    gap: 3.125rem;
+  }
+  .box__infoItemHeader {
+    font-size: 1.25rem;
+  }
+  .box__infoItemSubHeader {
+    font-size: 1.5625rem;
+  }
+  .box__details {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    padding: 0 0.9375rem 0 0.9375rem;
+    margin-bottom: 0.9375rem;
+  }
+  .box__detailsFirstText {
+    font-size: 1rem;
+  }
+}
 /*# sourceMappingURL=main.css.map */
