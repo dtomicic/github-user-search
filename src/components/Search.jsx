@@ -1,10 +1,10 @@
 import React from 'react'
 
-const Search = ({search}) => {
+const Search = ({search, user}) => {
   return (
     <div className='searchBar'>
         <input type="text" className='searchBar__input' placeholder='Search Github Username' onInput={search}/>
-        <button type='submit' className='searchBar__submit'>Search</button>
+        <button type='submit' className='searchBar__submit' onClick={user} >Search</button>
     </div>
   )
 }
